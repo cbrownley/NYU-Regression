@@ -1,0 +1,293 @@
+
+Week 1 Agenda
+
+4:55 - 5:00 : Introductions
+
+5:00 - 5:15 : Syllabus, Brightspace, Textbook, ROS website
+
+5:15 - 5:30 : Classical regression
+
+5:30 - 5:45 : Bayesian regression
+
+5:45 - 6:00 : Continuous prediction
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : Regression models (without interaction)
+
+6:25 - 6:40 : Regression models (with interaction)
+
+6:40 - 7:00 : Special cases
+
+7:00 - 7:25 : Course logistics
+
+
+
+
+Week 2 Agenda
+
+4:55 - 5:00 : Check-in about readings, software, homework, etc.
+
+5:00 - 5:15 : Review R:   install.packages, library, head, str, setwd, tidyverse, lm(y ~ 1 + ...)
+
+5:15 - 5:40 : Interpret OLS output
+
+5:40 - 6:00 : In-class exercise: F-statistic, etc.
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : F-test (bivariate)
+
+6:25 - 6:40 : F-test (water use)
+
+6:40 - 7:00 : F-test (baseball)
+
+7:00 - 7:25 : In-class exercise: F-statistic, etc.
+
+
+
+
+Week 3 Agenda
+
+4:55 - 5:00 : Check-in about Brightspace announcements, readings, software, homework, etc.
+
+5:00 - 5:15 : Probability distributions: Uniform, Bernoulli, Binomial
+
+5:15 - 5:30 : Probability distributions: Normal, Lognormal, Exponential, Poisson
+
+5:30 - 5:45 : Sampling distributions: counts, proportions, and means
+
+5:45 - 6:00 : Sampling distributions: LLN, CLT, Rules for means and variances
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : Sampling: discrete and continuous distributions
+
+6:25 - 6:40 : Simulation: Monte Hall and the Birthday Problem
+
+6:40 - 7:05 : Regression: Sampling to summarize, Defined boundaries, Defined mass, Point estimates
+
+7:05 - 7:25 : In-class exercise: Sampling and Simulation
+
+
+
+
+Week 4 Agenda
+
+4:55 - 5:00 : Check-in about Brightspace announcements, readings, software, homework, etc.
+
+5:00 - 5:10 : ANOVA Overview
+
+5:10 - 5:20 : One-way ANOVA Example: Cancer rates among bedrock areas
+
+* 5:20 - 5:30 : HANDS-ON EXERCISE: ANOVA by-hand and Tukey HSD (lines 150 to 260)
+
+5:30 - 5:40 : ANOVA as classical linear regression with a factor variable
+
+* 5:40 - 5:45 : HANDS-ON EXERCISE: Classical regression and emmeans (lines 260 to 330)
+
+5:45 - 5:55 : ANOVA as Bayesian linear regression with a factor variable
+
+* 5:55 - 6:00 : HANDS-ON EXERCISE: Bayesian regression and contrasts (lines 335 to 375)
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : ANOVA Example: Lifespans of fruit flies under different treatments (lines 580 to 615 & anova_examples: lines 140 to 230)
+
+6:25 - 6:40 : Two-way ANOVA Example: Weight gain among rats fed different diets (lines 500 to 550)
+
+6:40 - 7:05 : ANOVA Example: Number of breaks in yarn during weaving (anova_examples: lines 20 to 135)
+
+7:05 - 7:25 : Generalizations: Heterogeneous Variances and Robustness Against Outliers (anova_examples: lines 380 and 475)
+
+
+
+
+Week 5 Agenda
+
+4:55 - 5:00 : Check-in about Brightspace announcements, readings, software, homework, etc.
+
+5:00 - 5:10 : Information criteria - Joint probability
+
+5:10 - 5:20 : Information entropy --> Divergence --> Deviance
+
+* 5:20 - 5:30 : HANDS-ON EXERCISE: log likelihood and deviance for logistic (line 145) and linear (line 180) regression
+
+5:30 - 5:40 : Log Pointwise Predictive Density
+
+* 5:40 - 5:50 : HANDS-ON EXERCISE: lppd (lines 240,  275,  330)
+
+5:50 - 6:00 : Score the right data (out-of-sample) (lines 445-585) and Regularizing priors (line 620)
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : PSIS-LOO cross-validation (lines 680-770,  817)
+
+6:25 - 6:40 : K-fold cross-validation (lines 820-900,  caret: 905-960)
+
+6:40 - 7:05 : Information criteria - AIC and WAIC (lines 965-1020)
+
+7:05 - 7:25 : Model comparison (lines 1100-1185,  1190-1240,  1245-1345,  1350-1390,  1405-1455)
+
+
+
+
+Week 6 Agenda
+
+4:55 - 5:00 : Check-in about Brightspace announcements, readings, software, homework, etc.
+
+5:00 - 5:20 : Chi Square Test: Example 1
+
+* 5:20 - 5:30 : HANDS-ON EXERCISE: Chi Square Test and "By Hand" (lines 20 - 175)
+
+5:30 - 5:40 : Chi Square Test as Classical Regression
+
+* 5:40 - 5:50 : HANDS-ON EXERCISE: Classical Regression (lines 180 - 280)
+
+5:50 - 6:00 : Chi Square Test as Bayesian Regression
+
+* 5:57 - 6:00 : HANDS-ON EXERCISE: Bayesian Regression (lines 315 - 390)
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:25 : Chi Square Test: Example 2
+
+* 6:25 - 6:30 : HANDS-ON EXERCISE: Chi Square Test and "By Hand" (lines 395 - 560)
+
+6:30 - 6:40 : Chi Square Test as Classical Regression
+
+* 6:40 - 6:45 : HANDS-ON EXERCISE: Classical Regression (lines 565 - 640)
+
+6:45 - 6:55 : Chi Square Test as Bayesian Regression
+
+* 6:55 - 7:00 : HANDS-ON EXERCISE: Bayesian Regression (lines 675 - 755)
+
+7:00 - 7:20 : Overdispersion and Exposure
+
+* 7:20 - 7:25 : HANDS-ON EXERCISE: Overdispersion and Exposure (lines 760 - 975)
+
+
+
+
+Week 7 Agenda
+
+4:55 - 5:00 : Check-in about Brightspace announcements, readings, software, homework, etc.
+
+5:00 - 5:20 : Multivariate Gaussian distribution & mu and sigma
+
+* 5:20 - 5:30 : HANDS-ON EXERCISE: Multivariate Gaussian distribution (lines 66,  100 & 160,  305,  520-575)
+
+5:30 - 5:40 : Multivariate Gaussian distribution: alpha and beta (centered) & alpha and beta (uncentered)
+
+* 5:40 - 5:50 : HANDS-ON EXERCISE: Multivariate Gaussian distribution (lines 675,  840,  865-925)
+
+5:50 - 6:00 : Multivariate Gaussian distribution: multilevel models
+
+* 5:57 - 6:00 : HANDS-ON EXERCISE: Multivariate Gaussian distribution (lines 1055-1280)
+
+6:00 - 6:10 : BREAK
+
+6:10 - 6:30 : PCA: US Arrests
+
+* 6:40 - 6:50 : HANDS-ON EXERCISE: US Arrests (lines 1365-1510)
+
+6:50 - 7:10 : PCA: Olympic heptathlon
+
+* 7:10 - 7:20 : HANDS-ON EXERCISE: Olympic heptathlon (lines 1515-1765)
+
+7:20 - 7:25 : Course Wrap Up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alpha <- 0
+beta <- 0.5
+sigma <- 5
+n_individuals <- 100
+
+H <- runif(n_individuals, 130, 170)
+
+mu <- alpha + beta*H
+
+W <- rnorm(n_individuals, mu, sigma)
+
+plot(H, W, xlab = "height (cm)", ylab = "weight (kg)", main = "Synthetic people!")
+
+
+
+
+
+
+
+n_sims <- 1000
+
+heights_diff <- rep(NA, n_sims)
+
+for (s in 1:n_sims) {
+  n_people <- 100
+  # heights of 100 men
+  heights_male <- rnorm(n = n_people, mean = 69.1, sd = 2.9)
+  # heights of 100 women
+  heights_female <- rnorm(n = n_people, mean = 63.7, sd = 2.7)
+  # difference between mean male and female heights
+  heights_diff[s] <- mean(heights_male) - mean(heights_female)
+}
+
+hist(heights_diff)
+
+mean(heights_diff) # actual: 69.1 - 63.7 = 5.4
+
+sd(heights_diff) # actual: sqrt(2.9^2/100 + 2.7^2/100) = 0.396
+
+
+n_sims <- 1000
+
+height_sim <- function(N) {
+  # heights of N men
+  heights_male <- rnorm(n = N, mean = 69.1, sd = 2.9)
+  # heights of N women
+  heights_female <- rnorm(n = N, mean = 63.7, sd = 2.7)
+  # difference between mean male and female heights
+  heights_diff <- mean(heights_male) - mean(heights_female)
+}
+
+diff_in_heights <- replicate(n_sims, height_sim(N=100))
+
+hist(diff_in_heights)
+
+mean(diff_in_heights) # actual: 69.1 - 63.7 = 5.4
+
+sd(diff_in_heights) # actual: sqrt(2.9^2/100 + 2.7^2/100) = 0.396
+
+
+
+
+
+
+
+
+
+
+
+
+
